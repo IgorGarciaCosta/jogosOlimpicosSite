@@ -1,0 +1,38 @@
+/* 
+#########################
+#### Primeira Sintaxe####  
+#########################
+*/
+
+/* Regras Css Gerais */
+
+body{...}
+...
+/* Fim Regras Css Gerais */	
+
+/* Regras CSS aplicáveis à midias impressas em resoluções de 481px a 980px*/
+
+@import url(print.css) print and (min-width: 481px) and (max-width: 980px);
+
+/* Fim das Regras CSS aplicáveis à midias impressas em resoluções de 481px a 980px*/
+
+
+/* 
+#########################
+#### Segunda Sintaxe ####  
+#########################
+*/
+
+/* Regras Css Gerais */
+
+body{...}
+...
+/* Fim Regras Css Gerais */	
+
+/* Regras CSS aplicáveis à midias impressas em resoluções de 481px a 980px*/
+
+@media print and (min-width: 481px) and (max-width: 980px){
+	/* Regras de estilo para impressão  em resoluções de 481px a 980px*/
+}
+
+/* Fim das Regras CSS aplicáveis à midias impressas em resoluções de 481px a 980px*/

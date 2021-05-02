@@ -1,0 +1,38 @@
+/* 
+#########################
+#### Primeira Sintaxe####  
+#########################
+*/
+
+/* Regras Css Gerais */
+
+body{...}
+...
+/* Fim Regras Css Gerais */	
+
+/* Regras CSS aplicáveis à midias impressas */
+
+@import url(print.css) print;
+
+/* Fim das Regras CSS aplicáveis à midias impressas */
+
+
+/* 
+#########################
+#### Segunda Sintaxe ####  
+#########################
+*/
+
+/* Regras Css Gerais */
+
+body{...}
+...
+/* Fim Regras Css Gerais */	
+
+/* Regras CSS aplicáveis à midias impressas */
+
+@media print{
+	/* Regras de estilo para impressão */
+}
+
+/* Fim das Regras CSS aplicáveis à midias impressas */

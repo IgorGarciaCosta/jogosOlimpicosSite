@@ -1,0 +1,19 @@
+/* 
+#################################
+#### Sintaxe da Media Queries#### 
+#################################
+*/
+
+@media all{...}
+@media screen and (min-width: 400px) and (max-width: 700px){...}
+@media only print and (min-width: 25cm) and (color){...}
+
+/* Podemos concatenar multiplas media queries, usando a "," para separar as expressões */
+
+@media screen and (max-width: 400px), handheld and (color){...}
+@media screen and (min-width: 400px) and (max-width: 700px), print and (min-width: 25cm) and (color){...}
+
+/* Operador not */
+
+@media not screen and (color){...}
+
