@@ -149,4 +149,68 @@ a:hover {
     transition: height 2s;
 }
 
+.esconde_mobile{
+    display:none
+}
+
 /*Fim menu mobile*/
+
+/*Breakpoint 40em*/
+@media all and (min-width:40em){
+    .main-page{
+        background: #00a859;
+    }
+
+    .principal{
+        width: 70%;
+        padding: 0;
+        float: right;
+    }
+
+    .principal header, .principal div.bloco, .auxiliar article{
+        padding: 0 .5em;
+    }
+
+    .auxiliar{
+        width: 70%;
+        padding: 0;
+        float: right;
+    }
+
+    .navegacao{
+        width: 30%;
+        float: left;
+        height: 15em;
+    }
+
+    .navegacao li:first-child{
+        border-top: 1px solid #ddd;
+    }
+
+    .navegacao ul li a{
+        padding-left: .5em;
+        padding-right: .5em;
+    }
+
+    header.topo{
+        height: 142px;
+    }
+
+    img.logomarca {
+        position: absolute;
+        left: 50%;
+        margin-left: -88px;
+        top: 20px;
+    }
+
+    .rodape{
+        clear: both;
+    }
+
+    .esconde{
+        display: none;
+    }
+    .esconde_mobile{
+        display: block;
+    }
+}
