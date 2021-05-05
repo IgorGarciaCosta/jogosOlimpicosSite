@@ -149,68 +149,94 @@ a:hover {
     transition: height 2s;
 }
 
-.esconde_mobile{
-    display:none
+.esconde_mobile {
+    display: none
 }
 
 /*Fim menu mobile*/
 
 /*Breakpoint 40em*/
-@media all and (min-width:40em){
-    .main-page{
+
+@media all and (min-width:40em) {
+    .main-page {
         background: #00a859;
     }
-
-    .principal{
+    .principal {
         width: 70%;
         padding: 0;
         float: right;
     }
-
-    .principal header, .principal div.bloco, .auxiliar article{
+    .principal header, .principal div.bloco, .auxiliar article {
         padding: 0 .5em;
     }
-
-    .auxiliar{
+    .auxiliar {
         width: 70%;
         padding: 0;
         float: right;
     }
-
-    .navegacao{
+    .navegacao {
         width: 30%;
         float: left;
         height: 15em;
     }
-
-    .navegacao li:first-child{
+    .navegacao li:first-child {
         border-top: 1px solid #ddd;
     }
-
-    .navegacao ul li a{
+    .navegacao ul li a {
         padding-left: .5em;
         padding-right: .5em;
     }
-
-    header.topo{
+    header.topo {
         height: 142px;
     }
-
     img.logomarca {
         position: absolute;
         left: 50%;
         margin-left: -88px;
         top: 20px;
     }
-
-    .rodape{
+    .rodape {
         clear: both;
     }
-
-    .esconde{
+    .esconde {
         display: none;
     }
-    .esconde_mobile{
+    .esconde_mobile {
         display: block;
     }
+}
+
+/*breakpoint 62.5 em 1000px*/
+
+@media all and (min-width: 62.5em) {
+    .main-page {
+        background: none;
+    }
+    .principal {
+        width: 60%;
+        float: left;
+    }
+    .auxiliar {
+        width: 25%;
+    }
+    .navegacao {
+        width: 15%;
+    }
+}
+
+/*breakpoint 75 em 1200px*/
+
+@media all and (min-width: 75em) {
+    .geral{
+        max-width: 100em;
+        margin: 0 auto;
+    }
+
+    .principal{
+        width: 57%;
+        margin: 5px 1.5%;
+        border-radius: 10px;
+
+    }
+
 }
